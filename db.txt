@@ -1,0 +1,13 @@
+CREATE DATABASE boomsongs_db;
+
+USE boomsongs_db;
+
+CREATE TABLE songs (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  artist VARCHAR(255) NOT NULL,
+  file VARCHAR(255) NOT NULL
+);
+
+INSERT INTO songs (title, artist, file) VALUES
+('Aoge tum kabhi', 'local train', 'C:\Users\vishw\Desktop\MusicPlayer\12.mp3');
